@@ -1,0 +1,37 @@
+{
+  "name": "iobroker.testpw2",
+  "version": "1.0.2",
+  "description": "PowerWall adapter for ioBroker",
+  "author": {
+    "name": "Hufnagl Oliver",
+    "email": "mail@testpw2.at"
+  },
+  "homepage": "https://github.com/Honigkuchen1/ioBroker.testpw2",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "testpw2",
+	"Honigkuchen1XP",
+	"Media controller",
+    "Smart Home",
+    "home automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Honigkuchen1/ioBroker.testpw2"
+  },
+  "dependencies": {
+    "@iobroker/adapter-core": "^1.0.3"
+  },
+  "devDependencies": {
+   
+  },
+  "main": "main.js",
+  "scripts": {
+   
+  },
+  "bugs": {
+    "url": "https://github.com/Honigkuchen1/ioBroker.testpw2/issues"
+  },
+  "readmeFilename": "README.md"
+}

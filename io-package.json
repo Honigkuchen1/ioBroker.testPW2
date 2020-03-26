@@ -1,0 +1,67 @@
+{
+    "common": {
+        "name": "testpw",
+        "version": "1.0.2",
+        "news": {
+            "1.0.2": {
+                "en": "ioBroker adapter for DMXfaceXP controllers",
+                "de": "ioBroker Adapter für DMXfaceXP Controller"
+            }
+        },
+        "title": "DMXfaceXP",
+        "titleLang": {
+            "en": "DMXfaceXP ioBroker adapter",
+            "de": "DMXfaceXP ioBroker Adapter"
+        },
+        "desc": {
+            "en": "Connects DMXfaceXP by ACTIVE SEND protocoll",
+            "de": "Verbindet das DMXfaceXP über das ACTICE SEND Protokoll"
+        },
+        "authors": [
+            "Author <mail@dmxface.at>"
+        ],
+        "keywords": [
+            "ioBroker",
+            "testpw",
+			"Media controller",
+            "Smart Home",
+            "home automation"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "testpw.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/Honigkuchen1/ioBroker.testPW/master/admin/dmxface.png",
+        "readme": "https://github.com/Honigkuchen1/ioBroker.testPW/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "general",
+        "compact": true,
+        "materialize": true,
+        "materializeTab": true,
+        "adminTab": {
+            "singleton": true,
+            "name": {
+                "en": "testPW",
+                "de": "testPW"
+             },
+            "link": "www.none.de",
+            "fa-icon": "info"
+        },
+        "supportCustoms": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+		"ipaddress": "tesla",
+		"port": "443",
+		"requesttiming": "1000",
+		"lastdmxchannel": "0"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
